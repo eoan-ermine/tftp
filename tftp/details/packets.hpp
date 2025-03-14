@@ -39,22 +39,24 @@ namespace errors {
 
 /// Trivial File Transfer Protocol error code
 enum Error : std::uint16_t {
-    /// Not defined, see error message (if any) error code
+    /// Not defined, see error message (if any)
     NotDefined = 0,
-    /// File not found error code
+    /// File not found
     FileNotFound = 1,
-    /// Access violation error code
+    /// Access violation
     AccessViolation = 2,
-    /// Disk full or allocation exceeded error code
+    /// Disk full or allocation exceeded (RFC 1350) or file too large (RFC2349)
     DiskFull = 3,
-    /// Illegal TFTP operation error code
+    /// Illegal TFTP operation
     IllegalOperation = 4,
-    /// Unknown transfer ID error code
+    /// Unknown transfer ID
     UnknownTransferID = 5,
-    /// File already exists error code
+    /// File already exists
     FileAlreadyExists = 6,
-    /// No such user error code
-    NoSuchUser = 7
+    /// No such user
+    NoSuchUser = 7,
+    /// Wrong blocksize (RFC 2348)
+    WrongBlocksize = 8
 };
 
 } // namespace errors
