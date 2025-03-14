@@ -4,7 +4,7 @@ A simple header-only Trivial File Transfer Protocol (*TFTP*) packets parsing and
 
 [RFC 1350](https://datatracker.ietf.org/doc/html/rfc1350) (*TFTP Protocol Revision 2*) compilant, [RFC 2347](https://datatracker.ietf.org/doc/html/rfc2347) (*TFTP Option Extension*) support.
 
-![C++ Standard](https://img.shields.io/badge/C%2B%2B-17-blue) ![](https://github.com/eoan-ermine/tftp_common/actions/workflows/build_and_test.yml/badge.svg) ![](https://github.com/eoan-ermine/tftp_common/actions/workflows/documentation.yml/badge.svg) ![](https://github.com/eoan-ermine/tftp_common/actions/workflows/style.yml/badge.svg) [![](https://img.shields.io/badge/docs-blue)](https://eoanermine.com/tftp_common/)
+![C++ Standard](https://img.shields.io/badge/C%2B%2B-17-blue) ![](https://github.com/eoan-ermine/tftp/actions/workflows/build_and_test.yml/badge.svg) ![](https://github.com/eoan-ermine/tftp/actions/workflows/documentation.yml/badge.svg) ![](https://github.com/eoan-ermine/tftp/actions/workflows/style.yml/badge.svg) [![](https://img.shields.io/badge/docs-blue)](https://eoanermine.com/tftp/)
 
 ## Supported platforms
 
@@ -30,9 +30,9 @@ A simple header-only Trivial File Transfer Protocol (*TFTP*) packets parsing and
 mkdir build
 cd build
 ```
-4. Execute this command in the shell replacing `path/to/tftp_common/source/root` with the path to the root of your tftp_common source tree:
+4. Execute this command in the shell replacing `path/to/tftp/source/root` with the path to the root of your tftp source tree:
 ```shell
-cmake path/to/tftp_common/source/root
+cmake path/to/tftp/source/root
 ```
 5. After CMake has finished running, proceed to use IDE project files, or start the build from the build directory:
 ```shell
@@ -42,7 +42,7 @@ The --build option tells cmake to invoke the underlying build tool (make, ninja,
 
 The underlying build tool can be invoked directly, of course, but the --build option is portable.
 
-6. After tftp_common has finished building, install it from the build directory:
+6. After tftp has finished building, install it from the build directory:
 ```shell
 cmake --build . --target install
 ```
@@ -54,7 +54,7 @@ The --target option with install parameter in addition to the --build option tel
 Variables customize how the build will be generated. Options are boolean variables, with possible values ON/OFF. Options and variables are defined on the CMake command line like this:
 
 ```shell
-cmake -DVARIABLE=value path/to/tftp_common/source
+cmake -DVARIABLE=value path/to/tftp/source
 ```
 
 ### CMake variables

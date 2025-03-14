@@ -1,7 +1,7 @@
-#include "../tftp_common/details/parsers.hpp"
+#include "../tftp/details/parsers.hpp"
 #include <gtest/gtest.h>
 
-using namespace tftp_common::packets;
+using namespace tftp::packets;
 
 /// Test that Request packet parsing is going fine
 TEST(Request, Parse) {

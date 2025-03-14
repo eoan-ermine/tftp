@@ -13,7 +13,7 @@
 #include <unordered_map>
 #include <vector>
 
-namespace tftp_common::packets {
+namespace tftp::packets {
 
 namespace types {
 
@@ -347,4 +347,4 @@ class OptionAcknowledgment final {
     std::unordered_map<std::string, std::string> Options;
 };
 
-} // namespace tftp_common::packets
+} // namespace tftp::packets

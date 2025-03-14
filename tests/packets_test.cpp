@@ -1,7 +1,7 @@
-#include "../tftp_common/details/packets.hpp"
+#include "../tftp/details/packets.hpp"
 #include <gtest/gtest.h>
 
-using namespace tftp_common::packets;
+using namespace tftp::packets;
 
 #define EXPECT_DATA(Buffer, BaseOffset, Data)                                                                          \
     {                                                                                                                  \

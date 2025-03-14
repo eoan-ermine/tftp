@@ -1,3 +1,0 @@
-[submodule "examples/tftp_client"]
-	path = examples/tftp_client
-	url = git@github.com:eoan-ermine/tftp_client.git

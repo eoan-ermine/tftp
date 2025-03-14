@@ -1,17 +1,17 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(tftp_common
+project(tftp
     VERSION 1.3.0 LANGUAGES CXX
-    HOMEPAGE_URL "https://github.com/eoan-ermine/tftp_common"
+    HOMEPAGE_URL "https://github.com/eoan-ermine/tftp"
 )
 
 include(cmake/ClangFormat.cmake)
 include(cmake/Doxygen.cmake)
 
 set(ALL_SOURCES
-    tftp_common/details/packets.hpp
-    tftp_common/details/parsers.hpp
-    tftp_common/tftp_common.hpp
+    tftp/details/packets.hpp
+    tftp/details/parsers.hpp
+    tftp/tftp.hpp
 )
 
 include(GNUInstallDirs)
@@ -46,7 +46,7 @@ if (MAIN_PROJECT)
     )
 
     if(NOT INCLUDE_INSTALL_DIR)
-        set(INCLUDE_INSTALL_DIR tftp_common)
+        set(INCLUDE_INSTALL_DIR tftp)
     endif()
 
     configure_package_config_file(
@@ -69,7 +69,7 @@ if (MAIN_PROJECT)
         DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/${PROJECT_NAME}/cmake
     )
 
-    install(DIRECTORY ${PROJECT_SOURCE_DIR}/tftp_common/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
+    install(DIRECTORY ${PROJECT_SOURCE_DIR}/tftp/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
 endif()
 
 option(BUILD_TESTS "Build tests" OFF)

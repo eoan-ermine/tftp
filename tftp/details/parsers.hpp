@@ -4,7 +4,7 @@
 #include <optional>
 #include <variant>
 
-namespace tftp_common::packets {
+namespace tftp::packets {
 
 /// The result of parsing a single packet
 template <typename T> struct ParseResult {
@@ -352,4 +352,4 @@ template <> struct Parser<OptionAcknowledgment> {
     }
 };
 
-} // namespace tftp_common::packets
+} // namespace tftp::packets
