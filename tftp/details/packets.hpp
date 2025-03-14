@@ -339,6 +339,9 @@ class OptionAcknowledgment final {
     /// @return Constant iterator to the element following the last option (name and value) pair
     auto cend() const noexcept { return Options.cend(); }
 
+    /// Check if there's an option with the specified name
+    bool hasOption(const std::string &OptionName) const noexcept { return Options.count(OptionName); }
+
     /// Get option value by its name
     /// @throws std::out_of_range if there's no option with the specified name
     std::string_view getOptionValue(const std::string &OptionName) const noexcept { return Options.at(OptionName); }
