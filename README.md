@@ -2,7 +2,7 @@
 
 A simple header-only Trivial File Transfer Protocol (*TFTP*) packets parsing and serialization library.
 
-[RFC 1350](https://datatracker.ietf.org/doc/html/rfc1350) (*TFTP Protocol Revision 2*) compilant, [RFC 2347](https://datatracker.ietf.org/doc/html/rfc2347) (*TFTP Option Extension*) support.
+[RFC 1350](https://datatracker.ietf.org/doc/html/rfc1350) (*TFTP Protocol Revision 2*) compilant, [RFC 2347](https://datatracker.ietf.org/doc/html/rfc2347) (*TFTP Option Extension*) support. [RFC 2348](https://datatracker.ietf.org/doc/html/rfc2348) (*TFTP Blocksize Option*), [RFC 2349](https://datatracker.ietf.org/doc/html/rfc2349) (*TFTP Timeout Interval and Transfer Size Options*) compatible.
 
 ![C++ Standard](https://img.shields.io/badge/C%2B%2B-17-blue) ![](https://github.com/eoan-ermine/tftp/actions/workflows/build_and_test.yml/badge.svg) ![](https://github.com/eoan-ermine/tftp/actions/workflows/documentation.yml/badge.svg) ![](https://github.com/eoan-ermine/tftp/actions/workflows/style.yml/badge.svg) [![](https://img.shields.io/badge/docs-blue)](https://eoanermine.com/tftp/)
 
