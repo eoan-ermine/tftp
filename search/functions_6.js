@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['issuccess_0',['isSuccess',['../structtftp_1_1packets_1_1ParseReturn.html#ad348b1d565b2156fa16b09a05ea4851d',1,'tftp::packets::ParseReturn']]]
+  ['hasoption_0',['hasOption',['../classtftp_1_1packets_1_1OptionAcknowledgment.html#ac6f8aaee94e5326debab0a018c6d3653',1,'tftp::packets::OptionAcknowledgment']]]
 ];
