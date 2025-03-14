@@ -91,6 +91,8 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34bad32b8d30ac4e589a4aef84ed0b43098b">UnknownTransferID</a> = 5
 , <a class="el" href="namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34ba72738626b29e42f4ed7c4b822273c340">FileAlreadyExists</a> = 6
 , <a class="el" href="namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34bad25690dfd2a104e397c440a44eb35687">NoSuchUser</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34ba4c5c6b2e88aee0a05de18f56d7cb26c1">WrongBlocksize</a> = 8
 <br />
  }</td></tr>
 <tr class="memdesc:a8ac6de657f455948e15f396fec73f34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trivial File Transfer Protocol error code.  <a href="namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34b">More...</a><br /></td></tr>
@@ -111,21 +113,23 @@ Enumerations</h2></td></tr>
 
 <p>Trivial File Transfer Protocol error code. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba272f0fcd121f568a5745b6aba2283143" name="a8ac6de657f455948e15f396fec73f34ba272f0fcd121f568a5745b6aba2283143"></a>NotDefined&#160;</td><td class="fielddoc"><p>Not defined, see error message (if any) error code. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba272f0fcd121f568a5745b6aba2283143" name="a8ac6de657f455948e15f396fec73f34ba272f0fcd121f568a5745b6aba2283143"></a>NotDefined&#160;</td><td class="fielddoc"><p>Not defined, see error message (if any) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba8bb309b45bc6af3bdd9f0c154f78e612" name="a8ac6de657f455948e15f396fec73f34ba8bb309b45bc6af3bdd9f0c154f78e612"></a>FileNotFound&#160;</td><td class="fielddoc"><p>File not found error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba8bb309b45bc6af3bdd9f0c154f78e612" name="a8ac6de657f455948e15f396fec73f34ba8bb309b45bc6af3bdd9f0c154f78e612"></a>FileNotFound&#160;</td><td class="fielddoc"><p>File not found. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba19b4305a520a43ee4a9a6a127657354b" name="a8ac6de657f455948e15f396fec73f34ba19b4305a520a43ee4a9a6a127657354b"></a>AccessViolation&#160;</td><td class="fielddoc"><p>Access violation error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba19b4305a520a43ee4a9a6a127657354b" name="a8ac6de657f455948e15f396fec73f34ba19b4305a520a43ee4a9a6a127657354b"></a>AccessViolation&#160;</td><td class="fielddoc"><p>Access violation. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34bac9ccc17344ebfd5c5145615af03864d5" name="a8ac6de657f455948e15f396fec73f34bac9ccc17344ebfd5c5145615af03864d5"></a>DiskFull&#160;</td><td class="fielddoc"><p>Disk full or allocation exceeded error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34bac9ccc17344ebfd5c5145615af03864d5" name="a8ac6de657f455948e15f396fec73f34bac9ccc17344ebfd5c5145615af03864d5"></a>DiskFull&#160;</td><td class="fielddoc"><p>Disk full or allocation exceeded (RFC 1350) or file too large (RFC2349) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba8c6517918ea1728c252ac953d14085ea" name="a8ac6de657f455948e15f396fec73f34ba8c6517918ea1728c252ac953d14085ea"></a>IllegalOperation&#160;</td><td class="fielddoc"><p>Illegal TFTP operation error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba8c6517918ea1728c252ac953d14085ea" name="a8ac6de657f455948e15f396fec73f34ba8c6517918ea1728c252ac953d14085ea"></a>IllegalOperation&#160;</td><td class="fielddoc"><p>Illegal TFTP operation. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34bad32b8d30ac4e589a4aef84ed0b43098b" name="a8ac6de657f455948e15f396fec73f34bad32b8d30ac4e589a4aef84ed0b43098b"></a>UnknownTransferID&#160;</td><td class="fielddoc"><p>Unknown transfer ID error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34bad32b8d30ac4e589a4aef84ed0b43098b" name="a8ac6de657f455948e15f396fec73f34bad32b8d30ac4e589a4aef84ed0b43098b"></a>UnknownTransferID&#160;</td><td class="fielddoc"><p>Unknown transfer ID. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba72738626b29e42f4ed7c4b822273c340" name="a8ac6de657f455948e15f396fec73f34ba72738626b29e42f4ed7c4b822273c340"></a>FileAlreadyExists&#160;</td><td class="fielddoc"><p>File already exists error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba72738626b29e42f4ed7c4b822273c340" name="a8ac6de657f455948e15f396fec73f34ba72738626b29e42f4ed7c4b822273c340"></a>FileAlreadyExists&#160;</td><td class="fielddoc"><p>File already exists. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34bad25690dfd2a104e397c440a44eb35687" name="a8ac6de657f455948e15f396fec73f34bad25690dfd2a104e397c440a44eb35687"></a>NoSuchUser&#160;</td><td class="fielddoc"><p>No such user error code. </p>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34bad25690dfd2a104e397c440a44eb35687" name="a8ac6de657f455948e15f396fec73f34bad25690dfd2a104e397c440a44eb35687"></a>NoSuchUser&#160;</td><td class="fielddoc"><p>No such user. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8ac6de657f455948e15f396fec73f34ba4c5c6b2e88aee0a05de18f56d7cb26c1" name="a8ac6de657f455948e15f396fec73f34ba4c5c6b2e88aee0a05de18f56d7cb26c1"></a>WrongBlocksize&#160;</td><td class="fielddoc"><p>Wrong blocksize (RFC 2348) </p>
 </td></tr>
 </table>
 
