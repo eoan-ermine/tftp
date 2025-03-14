@@ -1,4 +1,0 @@
-<map id="tftp_common::packets::Data::serialize" name="tftp_common::packets::Data::serialize">
-<area shape="rect" id="node1" title=" " alt="" coords="108,5,275,47"/>
-<area shape="rect" id="node2" href="$packets__test_8cpp.html#a9909f69eda2678accb230645770493b9" title="Test that Data packet serialization is going fine and everything is converting to network byte order." alt="" coords="5,13,60,39"/>
-</map>

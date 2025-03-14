@@ -1,4 +1,5 @@
 <map id="TEST" name="TEST">
-<area shape="rect" id="node1" title="Test that Error packet serialization is going fine and everything is converting to network byte order..." alt="" coords="5,13,60,39"/>
-<area shape="rect" id="node2" href="$classtftp__common_1_1packets_1_1Error.html#af7199b14546117025789a1d5b3b65f81" title=" " alt="" coords="108,5,275,47"/>
+<area shape="rect" id="Node000001" title="Test that Error packet serialization is going fine and everything is converting to network byte order..." alt="" coords="5,13,60,38"/>
+<area shape="rect" id="Node000002" href="$classtftp_1_1packets_1_1Error.html#ac6fe2a74ea52ad632bf4794eed15152f" title=" " alt="" coords="108,5,249,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,23,94,23,94,28,60,28"/>
 </map>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['filealreadyexists_21',['FileAlreadyExists',['../namespacetftp__common_1_1packets_1_1errors.html#ab7296f681687be9b652da978d957ef29ab377467c37897ed3a83a4a649fe18eae',1,'tftp_common::packets::errors']]],
-  ['filenotfound_22',['FileNotFound',['../namespacetftp__common_1_1packets_1_1errors.html#ab7296f681687be9b652da978d957ef29a2a087f557cd9340144ab16a5f8f41f19',1,'tftp_common::packets::errors']]]
+  ['filealreadyexists_0',['FileAlreadyExists',['../namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34ba72738626b29e42f4ed7c4b822273c340',1,'tftp::packets::errors']]],
+  ['filenotfound_1',['FileNotFound',['../namespacetftp_1_1packets_1_1errors.html#a8ac6de657f455948e15f396fec73f34ba8bb309b45bc6af3bdd9f0c154f78e612',1,'tftp::packets::errors']]]
 ];

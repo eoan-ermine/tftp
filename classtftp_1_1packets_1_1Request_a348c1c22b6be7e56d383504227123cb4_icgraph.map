@@ -1,0 +1,7 @@
+<map id="tftp::packets::Request::serialize" name="tftp::packets::Request::serialize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="108,23,271,63"/>
+<area shape="rect" id="Node000002" href="$packets__test_8cpp.html#a586fac05383f9d819a0525c4a5c09d36" title="Test that Request packet with options serialization is going fine and everything is converting to net..." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,31,60,25,61,20,95,25"/>
+<area shape="rect" id="Node000003" href="$packets__test_8cpp.html#a7a0e0c5ce3fc0ebb0e0287a8d18de5af" title="Test that Request packet serialization is going fine and everything is converting to network byte ord..." alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,61,61,66,60,61,94,55"/>
+</map>

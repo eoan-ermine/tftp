@@ -1,4 +1,5 @@
 <map id="TEST" name="TEST">
-<area shape="rect" id="node1" title="Test that Acknowledgment packet serialization is going fine and everything is converting to network b..." alt="" coords="5,13,60,39"/>
-<area shape="rect" id="node2" href="$classtftp__common_1_1packets_1_1Acknowledgment.html#a73799540964e4b609154453d89befe77" title=" " alt="" coords="108,5,315,47"/>
+<area shape="rect" id="Node000001" title="Test that Acknowledgment packet serialization is going fine and everything is converting to network b..." alt="" coords="5,13,60,38"/>
+<area shape="rect" id="Node000002" href="$classtftp_1_1packets_1_1Acknowledgment.html#ada4f7c58e2d0f1348fb941f7aa96aab2" title=" " alt="" coords="108,5,331,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,23,94,23,94,28,60,28"/>
 </map>

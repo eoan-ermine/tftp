@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['writerequest_79',['WriteRequest',['../namespacetftp__common_1_1packets_1_1types.html#aaa29136d33339d8368d274457b9b3f93a94741d5d1788215e3fe8ae6857c83281',1,'tftp_common::packets::types']]]
+  ['variables_0',['variables',['../index.html#autotoc_md5',1,'CMake variables'],['../index.html#autotoc_md4',1,'Options and variables']]],
+  ['version_1',['version',['../classconanfile_1_1TFTPCommonConan.html#abe1174ec9186a282fbe9e3aed84ac2c0',1,'conanfile::TFTPCommonConan']]]
 ];

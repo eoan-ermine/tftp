@@ -1,4 +1,0 @@
-<map id="tftp_common::packets::Acknowledgment::serialize" name="tftp_common::packets::Acknowledgment::serialize">
-<area shape="rect" id="node1" title=" " alt="" coords="108,5,315,47"/>
-<area shape="rect" id="node2" href="$packets__test_8cpp.html#a27e05571324b8c20f005eec6969af454" title="Test that Acknowledgment packet serialization is going fine and everything is converting to network b..." alt="" coords="5,13,60,39"/>
-</map>

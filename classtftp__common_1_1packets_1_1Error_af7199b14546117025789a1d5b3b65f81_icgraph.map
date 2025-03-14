@@ -1,4 +1,0 @@
-<map id="tftp_common::packets::Error::serialize" name="tftp_common::packets::Error::serialize">
-<area shape="rect" id="node1" title=" " alt="" coords="108,5,275,47"/>
-<area shape="rect" id="node2" href="$packets__test_8cpp.html#ac556d72fc8e66768761fdb5295e26b8a" title="Test that Error packet serialization is going fine and everything is converting to network byte order..." alt="" coords="5,13,60,39"/>
-</map>

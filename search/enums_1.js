@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['transfermode_145',['TransferMode',['../namespacetftp__common_1_1packets_1_1modes.html#a6acb5aab7ab56476a57dcaa97b1bf720',1,'tftp_common::packets::modes']]],
-  ['type_146',['Type',['../namespacetftp__common_1_1packets_1_1types.html#aaa29136d33339d8368d274457b9b3f93',1,'tftp_common::packets::types']]]
+  ['transfermode_0',['TransferMode',['../namespacetftp_1_1packets_1_1modes.html#a5f295c3ef51f880b7d493dd2c878ec0f',1,'tftp::packets::modes']]],
+  ['type_1',['Type',['../namespacetftp_1_1packets_1_1types.html#a6116bbcd2a2ef9ee4b3ccac594f915ed',1,'tftp::packets::types']]]
 ];

@@ -1,7 +1,12 @@
-<map id="tftp_common/details/packets.hpp" name="tftp_common/details/packets.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="196,5,352,47"/>
-<area shape="rect" id="node2" href="$packets__test_8cpp.html" title=" " alt="" coords="5,102,172,129"/>
-<area shape="rect" id="node3" href="$parsers_8hpp.html" title=" " alt="" coords="196,95,352,136"/>
-<area shape="rect" id="node5" href="$tftp__common_8hpp.html" title=" " alt="" coords="277,184,503,211"/>
-<area shape="rect" id="node4" href="$parse__test_8cpp.html" title=" " alt="" coords="99,184,252,211"/>
+<map id="tftp/details/packets.hpp" name="tftp/details/packets.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="195,5,369,31"/>
+<area shape="rect" id="Node000002" href="$packets__test_8cpp.html" title=" " alt="" coords="5,79,172,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,38,121,81,119,76,237,33"/>
+<area shape="rect" id="Node000003" href="$parsers_8hpp.html" title=" " alt="" coords="196,79,368,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,44,285,79,279,79,279,44"/>
+<area shape="rect" id="Node000005" href="$tftp_8hpp.html" title=" " alt="" coords="357,152,455,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="327,34,356,52,383,77,394,96,401,116,408,151,403,152,396,118,389,98,379,80,353,57,324,39"/>
+<area shape="rect" id="Node000004" href="$parse__test_8cpp.html" title=" " alt="" coords="179,152,332,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="275,118,262,153,257,151,270,116"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="315,108,387,149,384,154,312,113"/>
 </map>
